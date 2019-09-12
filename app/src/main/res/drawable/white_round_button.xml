@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- when login button got pressed change color
+
+   state to from white to blue -->
+<item android:state_pressed="true">
+
+    <shape>
+        <solid
+            android:color="@color/link_blue"
+            ></solid>
+
+        <stroke
+
+            android:color="@color/black"
+            android:width="1dp"
+            />
+        <corners
+            android:radius="50dp"/>
+
+    </shape>
+
+</item>
+
+
+    <item>
+
+        <shape>
+            <solid
+                android:color="@color/white"
+                ></solid>
+
+            <stroke
+
+                android:color="@color/grey"
+                android:width="1dp"
+                />
+            <corners
+                android:radius="50dp"/>
+
+        </shape>
+
+    </item>
+</selector>

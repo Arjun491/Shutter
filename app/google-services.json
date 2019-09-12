@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "605065637460",
+    "firebase_url": "https://shutter-768b0.firebaseio.com",
+    "project_id": "shutter-768b0",
+    "storage_bucket": "shutter-768b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605065637460:android:202f5d6b4b55f0a0",
+        "android_client_info": {
+          "package_name": "com.example.shutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605065637460-tkm1td5mht7r0v31dsltv9buhhl1v3re.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shutter",
+            "certificate_hash": "946122f6d63c1a468fb2b1a0694557cba820343d"
+          }
+        },
+        {
+          "client_id": "605065637460-1d9hnksht5eobougs3jkitbml5uaep65.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shutter",
+            "certificate_hash": "0018c71ad2b7a0871cbf1646b15268bdd733e3ac"
+          }
+        },
+        {
+          "client_id": "605065637460-67fa7v7rjs4jnriiqqakomh3uc08jl97.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shutter",
+            "certificate_hash": "63f1a987ab11de486c3a5503e63bfe0d7defe055"
+          }
+        },
+        {
+          "client_id": "605065637460-2ckfkf7ojtsqel8t8r9ef6bfjdrppf63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWoP8h1lF_-U237unxW3utaXw0LWqojqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605065637460-2ckfkf7ojtsqel8t8r9ef6bfjdrppf63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

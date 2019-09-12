@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.shutter"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        multiDexEnabled true
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+//    implementation 'com.android.support:multidex:1.0.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    // design library for coordinate layout and Toolbars
+    implementation 'com.android.support:design:28.0.0'
+
+    //bottomnavuagtionviewEX
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:2.0.4'
+
+    //circle image view
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    // universal image loader
+
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    //firebase dependencies
+    //implementation 'com.google.firebase:firebase-core:17.0.0'
+    implementation 'com.google.firebase:firebase-database:16.0.4'
+    implementation 'com.google.firebase:firebase-auth:16.0.5'
+//    implementation 'com.google.firebase:firebase-storage:18.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //firebase storage
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
+    //Nigh mode button
+    //implementation 'com.github.shrikanth7698:Night-Mode-Button:V1.0'
+
+    //progress bar: https://github.com/ybq/Android-SpinKit
+    implementation 'com.github.ybq:Android-SpinKit:1.2.0'
+
+    //fading text
+    implementation 'com.tomer:fadingtextview:2.5'
+
+
+    //tommydots
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3'
+
+    //progess bar
+    implementation 'com.github.ybq:Android-SpinKit:1.2.0'
+}
+apply plugin: 'com.google.gms.google-services'

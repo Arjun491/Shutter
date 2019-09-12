@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relLayout1"
+        >
+
+
+
+        <include layout="@layout/snippet_top_profilebar"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relLayout1"
+        android:id="@id/relLayout2"
+        >
+
+        <include layout="@layout/layout_center_profile"/>
+
+    </RelativeLayout>
+
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profileProgressBar"
+        style="@style/SpinKitView.FadingCircle"
+        android:layout_centerInParent="true"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/progressbarcolor" />
+    <include layout="@layout/layout_bottom_navigation_view"/>
+</RelativeLayout>
