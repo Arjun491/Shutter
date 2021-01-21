@@ -1,5 +1,5 @@
 # Shutter
-live preview: https://arjunsingh.tech/
+live preview: http://www.arjunsingh.tech/
 Shutter social media  app - user can upload, like and comment on an image as well can follow a friend :)
 This app was build in Java using Android Studio.
 We did use the Firebase database and MS MySQL Server for database managerment
