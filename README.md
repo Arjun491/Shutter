@@ -6,3 +6,9 @@ We did use the Firebase database and MS MySQL Server for database managerment
 
 
 ![shutter](https://user-images.githubusercontent.com/28630022/105335231-a6fbc900-5b8c-11eb-9165-3c3cb802a83c.gif)
+
+
+
+Full preview of the Shutter Scoial Media App is avaialble on YouTube:
+
+https://www.youtube.com/watch?v=J4KPvZFGM_0
